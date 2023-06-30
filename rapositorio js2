@@ -1,0 +1,59 @@
+//atividade de fixação 1.1
+var idade = prompt ("Qual sua idade? ")
+
+if(idade>=18) {
+ console.log("Que legal, você já pode ter a carteira de habilitação")  
+} else {
+  console.log("Poxa, que pena! Você ainda não pode ter a carteira de habilitação.")
+} 
+
+//atividade de fixação 1.2
+var pergunta = prompt ("Você terminou o ensino médio? [s] ou [n] ")
+if(pergunta=="s"){
+  console.log("Poxa, que legal!.")
+} else {
+  console.log("Falta pouco! Logo você termina.")
+}
+
+//atividade2.2
+// Valor da variável sistema_operacional
+var sistema_operacional =  prompt ("Qual o sistema operacional? ");
+
+// Realizando as validações de acordo com as respostas e exibindo a mensagem correspondente no console
+if (sistema_operacional === "linux") {
+  console.log("O Linux é um sistema operacional de código aberto.");
+} else if (sistema_operacional === "windows") {
+  console.log("O Windows é um sistema operacional da empresa Microsoft.");
+} else if (sistema_operacional === "macOS") {
+  console.log("O macOS é um sistema operacional da empresa Apple.");
+} else if (sistema_operacional === "Chrome OS") {
+  console.log("O Chrome OS é um sistema operacional da empresa Google.");
+} else {
+  console.log("Há a possibilidade de você estar utilizando um sistema mobile.");
+}
+
+//atividade 3.1
+var x = 5;
+var y = 7;
+// validações e exibições da mensagem correspondente no console
+if (x < y) {
+  console.log("Olá mundo!");
+} else if (x > y) {
+  console.log("Mundo, olá!");
+} else {
+  console.log("Adeus!");
+}
+
+//atividade3.2
+var fruta = prompt("Qual a fruta? ");
+
+// realizando as validações e exibindo o filme correspondente no console
+if (fruta === "banana") {
+  console.log("O filme é Os minions.");
+} else if (fruta === "laranja") {
+  console.log("O filme é Laranja Mecânica.");
+} else if (fruta === "maçã") {
+  console.log("O filme é Branca de neve.");
+} else {
+  console.log("O cinema tá fechado.");
+}
